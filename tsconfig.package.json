@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNEXT",
+    "target": "ES2019",
+    "esModuleInterop": true,
+    
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    
+    "strict": true,
+		"allowJs": true,
+		"checkJs": true,
+    "removeComments": true,
+		"forceConsistentCasingInFileNames": true,
+    
+    "importHelpers": true,
+		"importsNotUsedAsValues": "error",
+    "composite": true,
+  }
+}

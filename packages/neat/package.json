@@ -1,0 +1,16 @@
+{
+  "name": "@snaike/neat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json"
+  }
+}
