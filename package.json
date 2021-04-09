@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "compile": "tsc --build --force tsconfig.json",
+    "export": "yarn compile && yarn workspace @snaike/web build",
     "clean": "rm -rf packages/neat/dist"
   },
   "devDependencies": {
