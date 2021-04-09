@@ -21,14 +21,14 @@ module.exports = {
 		// By default, `npm run build` will create a standard Node app.
 		// You can create optimized builds for different platforms by
 		// specifying a different adapter
-		adapter: { adapt: netlify },
+		adapter: netlify(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 
 		vite: {
 			optimizeDeps: {
-				// include: ['@snaike/neat']
+				include: []
 			},
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {})

@@ -81,10 +81,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-netlify@^1.0.0-next.0":
-  version "1.0.0-next.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.0.tgz#c4d24d60b459e13f09d43f18569302a8fe6842e4"
-  integrity sha512-CxjWlGkNyQzEB9LsXN+MvF1Z+SHRb16cNZL8sy5bUcytDcf7ETjlgKdaxks7ygWBhI/wtx4Mcxr+uIt50p8vag==
+"@sveltejs/adapter-netlify@^1.0.0-next.4":
+  version "1.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.4.tgz#2e735de864e58130cd9a3c5bf7b3ae2dc36e0608"
+  integrity sha512-kY3tRvnVR0MDOu+8UIgCRrJRkVj4/eQyqdcSm0K06NW8/1QIuVDYE+YZU1IZo4SDYRLeq+/md1UeaaqXBpx8NA==
   dependencies:
     toml "^3.0.0"
 
