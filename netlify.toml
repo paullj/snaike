@@ -1,5 +1,2 @@
 [build]
   base = "packages/web"
-  command = "yarn build"
-  publish = "build/"
-  functions = "functions/"
