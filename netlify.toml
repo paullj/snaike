@@ -1,4 +1,5 @@
 [build]
-  command = "yarn export"
-  publish = "packages/web/build/"
-  functions = "packages/web/functions/"
+  base = "packages/web"
+  command = "yarn build"
+  publish = "build/"
+  functions = "functions/"

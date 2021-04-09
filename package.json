@@ -10,8 +10,7 @@
     "packages/**"
   ],
   "scripts": {
-    "compile": "tsc --build --force tsconfig.json",
-    "export": "yarn compile && yarn workspace @snaike/web build",
+    "build": "tsc --build --force tsconfig.json",
     "clean": "rm -rf packages/neat/dist"
   },
   "devDependencies": {
