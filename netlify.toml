@@ -1,2 +1,4 @@
 [build]
-  base = "packages/web/"
+  command="yarn compile && yarn workspace @snaike/web build"
+  publish = "packages/web/build/"
+  functions = "packages/web/functions/"
